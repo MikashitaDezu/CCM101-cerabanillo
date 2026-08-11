@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MikashitaDezu/CCM101-crabanillo/main/path/to/your-photo-filename.jpg" width="150" height="150" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="Carl Emmanuel Rabanillo">
+<img src="https://github.com/MikashitaDezu/INBENTORY/blob/0b04c9beb886d51182cb5ffd92ac31ae17f9b190/587dbb4e-dfc8-4565-a450-774fab044029.jpg" width="150" height="150" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="Carl Emmanuel Rabanillo">
 
 # Carl Emmanuel O. Rabanillo
 
