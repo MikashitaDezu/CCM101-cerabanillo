@@ -39,6 +39,7 @@ Each milestone highlights my continuous growth in:
 | Activity | Description | Status |
 | :--- | :--- | :---: |
 | **Lab 1** | Welcome to the Cloud (Linux Setup & GitHub Portfolio) | ✅ Completed |
+| **Lab 2** | Build the Cloud Infrastructure Blueprint (Project ED) | ✅ Completed |
 
 ---
 
