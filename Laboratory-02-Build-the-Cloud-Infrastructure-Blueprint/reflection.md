@@ -1,4 +1,4 @@
-# Reflection
+# Checkpoint 7 – Reflection
 
 1. **Which cloud infrastructure component do you think is the most important? Why?**
    Compute is arguably the most important component because it's what actually runs the application logic, handles incoming user requests, and processes raw data in real-time. While storage and networking are essential for data persistence and connectivity, without compute resources they remain entirely idle with nothing to serve. Everything an end user interacts with, from loading a dynamic web page to executing a complex database query, fundamentally depends on compute doing the heavy lifting first.
