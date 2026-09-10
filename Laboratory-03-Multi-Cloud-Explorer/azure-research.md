@@ -6,60 +6,54 @@
 
 </div>
 
-<p align="justify">
-This document provides a research overview of Microsoft Azure, one of the world's leading cloud platforms. It covers Azure's background, global infrastructure, management console, four core services, key advantages, and typical enterprise use cases.
-</p>
-
----
-
 ## Brief Overview
 
 <p align="justify">
-Microsoft Azure is Microsoft's public cloud computing platform, launched commercially in 2010. Azure has grown into one of the largest cloud providers by leaning heavily on its deep integration with the rest of the Microsoft ecosystem, including Windows Server, Active Directory, and Microsoft 365. It offers over 200 services spanning compute, storage, databases, networking, and artificial intelligence, and is widely adopted by enterprises that already run on Microsoft infrastructure, as well as government and regulated industries that rely on its compliance certifications.
+Microsoft Azure is Microsoft's public cloud platform, launched commercially in 2010. What sets it apart is how closely it ties into the rest of Microsoft's products, including Windows Server, Active Directory, and Microsoft 365. Azure offers more than 200 services spanning compute, storage, databases, networking, and artificial intelligence, and its biggest customer base is organizations already running on Microsoft infrastructure, along with government and other regulated industries that need its compliance certifications.
 </p>
 
 ## Global Infrastructure
 
 <p align="justify">
-Azure organizes its physical infrastructure into <b>Regions</b>, which are grouped into larger <b>Geographies</b> to support data residency and compliance requirements. Each Region typically contains multiple, independent <b>Availability Zones</b> equipped with dedicated power, cooling, and networking to ensure fault tolerance. Azure also maintains a global edge network through <b>Azure Front Door</b> and its CDN service to deliver content with low latency. This architecture allows businesses to deploy resilient applications while meeting regional data residency requirements.
+Azure splits its physical infrastructure into <b>Regions</b>, which are grouped into larger <b>Geographies</b> to help with data residency and compliance requirements. Each Region typically has several independent <b>Availability Zones</b>, each with its own power, cooling, and networking, so a failure in one zone does not bring down the others. Azure also runs a global edge network through <b>Azure Front Door</b> and its CDN to keep content delivery fast. This lets businesses build resilient applications while still meeting regional data residency rules.
 </p>
 
 ## Cloud Management Console
 
 <p align="justify">
-The <b>Azure Portal</b> is a centralized web-based interface used to provision, monitor, and configure Azure resources. Upon signing in, users access the portal dashboard to perform routine and administrative tasks:
+The <b>Azure Portal</b> is the web interface for provisioning, monitoring, and configuring Azure resources. After signing in, the portal dashboard lets you:
 </p>
 
-- Search for and launch specific Azure services and resource groups
-- Review Azure Advisor recommendations and Cost Management billing dashboards
-- Launch **Azure Cloud Shell** for direct browser-based command-line execution with Bash or PowerShell
+- Search for and launch Azure services and resource groups
+- Check Azure Advisor recommendations and Cost Management billing dashboards
+- Launch **Azure Cloud Shell** for command-line access directly in the browser, with Bash or PowerShell
 - Manage role-based access control (RBAC) permissions and resource tags
 
 ## Four (4) Core Services
 
-1. **Azure Virtual Machines** – Provides resizable virtual server instances in the cloud, allowing organizations to scale compute capacity dynamically based on workload demands.
+1. **Azure Virtual Machines** – Resizable virtual server instances, so compute capacity can scale up or down with demand instead of being fixed in advance.
 
-2. **Azure Blob Storage** – A highly scalable object storage service designed to store and protect any amount of unstructured data for websites, mobile applications, enterprise backups, and data lakes.
+2. **Azure Blob Storage** – Object storage for unstructured data, used for websites, mobile apps, backups, and data lakes.
 
-3. **Azure SQL Database** – A managed relational database service that simplifies database administration tasks such as provisioning, patching, and backups, with built-in high availability.
+3. **Azure SQL Database** – A managed relational database service that handles provisioning, patching, and backups, with high availability built in.
 
-4. **Microsoft Entra ID (Azure Active Directory)** – Manages secure access to Azure resources and services by enabling administrators to configure fine-grained permissions, user roles, and multi-factor authentication policies, while syncing directly with on-premises Active Directory.
+4. **Microsoft Entra ID (Azure Active Directory)** – Controls who can access Azure resources, letting administrators set fine-grained permissions, user roles, and multi-factor authentication, while syncing directly with an organization's on-premises Active Directory.
 
 ## Three (3) Advantages
 
-1. **Deep Microsoft Ecosystem Integration** – Connects seamlessly with Windows Server, Microsoft 365, and on-premises Active Directory, reducing rework for organizations already invested in Microsoft technologies.
+1. **Microsoft Ecosystem Integration** – Connects directly with Windows Server, Microsoft 365, and on-premises Active Directory, so organizations already using these tools don't have to rebuild their identity and access setup from scratch.
 
-2. **Strong Hybrid Cloud Capability** – Services like Azure Arc and Azure Stack allow organizations to manage on-premises and cloud resources under a single control plane.
+2. **Hybrid Cloud Capability** – Services like Azure Arc and Azure Stack let organizations manage on-premises and cloud resources from one control plane.
 
-3. **Enterprise Licensing and Compliance Maturity** – Many enterprises already hold Microsoft Enterprise Agreements, which can simplify Azure billing, and Azure carries a broad set of compliance certifications for regulated industries.
+3. **Enterprise Licensing and Compliance** – Many enterprises already hold Microsoft Enterprise Agreements, which can simplify Azure billing, and Azure carries a broad set of compliance certifications for regulated industries.
 
 ## Typical Enterprise Use Cases
 
-- Hosting line-of-business applications integrated with Microsoft 365 and Active Directory
-- Hybrid cloud deployments that connect on-premises data centers to the cloud
-- Regulated industries such as government, healthcare, and finance relying on Azure's compliance certifications
+- Hosting line-of-business applications tied into Microsoft 365 and Active Directory
+- Hybrid cloud deployments connecting on-premises data centers to the cloud
+- Government, healthcare, and finance workloads that rely on Azure's compliance certifications
 - DevOps pipelines and application lifecycle management through Azure DevOps
-- AI and machine learning development via Azure Machine Learning and the Azure OpenAI Service
+- AI and machine learning development through Azure Machine Learning and the Azure OpenAI Service
 
 ---
 
