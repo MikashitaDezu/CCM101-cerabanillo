@@ -6,12 +6,6 @@
 
 </div>
 
-<p align="justify">
-This document provides a research overview of Amazon Web Services (AWS), one of the world's leading cloud platforms. It covers AWS's background, global infrastructure, management console, four core services, key advantages, and typical enterprise use cases.
-</p>
-
----
-
 ## Brief Overview
 
 <p align="justify">
