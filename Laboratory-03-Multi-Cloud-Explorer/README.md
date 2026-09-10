@@ -92,4 +92,8 @@ All three recommended families are burstable/shared-core tiers because the measu
 CPU and memory usage is low — there's no sustained heavy load here that would justify
 paying for a larger, dedicated-core instance.
 
-**Screenshot:** `screenshots/killercoda-terminal.png`
+**Screenshots:**
+
+![KillerCoda terminal - uname -a and lscpu output](screenshots/Checkpoint_7.1.png)
+
+![KillerCoda terminal - free -h and df -h output](screenshots/Checkpoint_7.2.png)
