@@ -23,7 +23,7 @@ Budget and growth are the two constraints that matter most here, and AWS handles
 
 ---
 
-## 🎓 Client B – University
+## Client B – University
 
 <p align="justify">
 <b>Scenario:</b> A university already uses Windows Server, Microsoft 365, and Active Directory. The university wants to migrate some services to the cloud.
@@ -42,7 +42,7 @@ The university's existing stack basically decides this one. Since it already run
 
 ---
 
-## 🤖 Client C – AI Research Company
+## Client C – AI Research Company
 
 <p align="justify">
 <b>Scenario:</b> A research company develops Artificial Intelligence and Machine Learning applications that require high-performance computing.
@@ -61,7 +61,7 @@ High-performance computing for AI training is where GCP separates itself from th
 
 ---
 
-## 🛒 Client D – Global E-Commerce Company
+## Client D – Global E-Commerce Company
 
 <p align="justify">
 <b>Scenario:</b> A multinational online shopping company serves customers around the world and requires highly available infrastructure with automatic scaling.
@@ -81,8 +81,6 @@ Global availability with automatic scaling narrows this down fast, and AWS's foo
 ---
 
 <div align="center">
-
-<sub>- CHECKPOINT 6 -</sub>
 
 # Multi-Cloud Decision Matrix
 
