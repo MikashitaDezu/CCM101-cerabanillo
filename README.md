@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/MikashitaDezu/INBENTORY/blob/0b04c9beb886d51182cb5ffd92ac31ae17f9b190/587dbb4e-dfc8-4565-a450-774fab044029.jpg" width="150" height="150" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="Carl Emmanuel Rabanillo">
+<img src="https://github.com/MikashitaDezu/INBENTORY/blob/0b04c9beb886d51182cb5ffd92ac31ae17f9b190/587dbb4e-dfc8-4565-a450-774fab044029.jpg" width="200" height="200" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="Carl Emmanuel Rabanillo">
 
 # Carl Emmanuel O. Rabanillo
 
@@ -20,6 +20,7 @@ This repository serves as my professional portfolio and workspace for **CCM101 �
 
 Each milestone highlights my continuous growth in:
 * Cloud Infrastructure & Architecture
+* Multi-Cloud Platform Comparison (AWS, Azure, GCP)
 * Linux System Administration & Bash Scripting
 * Version Control & Technical Documentation
 
@@ -28,6 +29,7 @@ Each milestone highlights my continuous growth in:
 ## 🛠️ Skills & Technologies
 
 * **Operating Systems:** Ubuntu Linux, Debian
+* **Cloud Platforms:** Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP)
 * **Cloud & Virtualization:** KillerCoda Playground, KVM
 * **Version Control:** Git, GitHub
 * **Documentation:** Markdown, CLI Workflows
@@ -40,6 +42,7 @@ Each milestone highlights my continuous growth in:
 | :--- | :--- | :---: |
 | **Lab 1** | Welcome to the Cloud (Linux Setup & GitHub Portfolio) | ✅ Completed |
 | **Lab 2** | Build the Cloud Infrastructure Blueprint (Project ED) | ✅ Completed |
+| **Lab 3** | Multi-Cloud Explorer (AWS, Azure & GCP Research, Comparison, and Client Recommendations) | ✅ Completed |
 
 ---
 
@@ -53,6 +56,9 @@ Each milestone highlights my continuous growth in:
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 
 </div>
 
