@@ -85,6 +85,8 @@ Each milestone highlights my continuous growth in:
 | **[Lab 5](Laboratory-05-Cloud-Data-Engineer/)** | Cloud Data Engineer (Object Storage, MinIO Deployment, and Bucket Management) | ✅ Completed |
 | **[Lab 6](Laboratory-06-Cloud-Deployment-Engineer/)** | Cloud Deployment Engineer (Docker Compose, Multi-Tier Architecture, and Nextcloud Deployment) | ✅ Completed |
 | **[Lab 7](Laboratory-07-Cloud-Operations-Engineer/)** | Cloud Operations Engineer (Host Baseline, Docker Logs, and Container Metrics Monitoring) | ✅ Completed |
+| **[Lab 8](Laboratory-08-Cloud-Security-Engineer/)** | Cloud Security Engineer (Securing Cloud Environments) | ✅ Completed |
+| **[Lab 9](Laboratory-09-Cloud-Automation-Engineer/)** | Cloud Automation Engineer (Bash Scripting, File Permissions, and Cron Scheduling) | ✅ Completed |
 
 ### 🔽 Lab Details
 
@@ -145,6 +147,31 @@ Each milestone highlights my continuous growth in:
 
 </details>
 
+<details>
+<summary><b>🔐 Lab 8: Cloud Security Engineer</b></summary>
+
+<br>
+
+[📁 Open the Lab 8 folder](Laboratory-08-Cloud-Security-Engineer/)
+
+</details>
+
+<details>
+<summary><b>🤖 Lab 9: Cloud Automation Engineer</b></summary>
+
+<br>
+
+**Mission:** Remove the human step from a client's weekly backups by writing a Bash script and scheduling it with cron.
+
+* 📜 **Script:** `backup.sh` compresses the `app-data` folder into a time-stamped `.tar.gz` file inside `backups`
+* 🔐 **Permissions:** `chmod +x` makes the script executable
+* ⏰ **Schedule:** `0 2 * * * /root/backup.sh` runs the backup every night at 2:00 AM
+* 📄 **Documents:** `automation-research.md`, `backup-script-guide.md`, `reflection.md`
+
+[📁 Open the Lab 9 folder](Laboratory-09-Cloud-Automation-Engineer/)
+
+</details>
+
 <div align="right">
 
 [⬆️ Back to top](#top)
@@ -165,12 +192,14 @@ flowchart LR
     L4 --> L5["🪣 Lab 5<br/>MinIO Storage"]
     L5 --> L6["📦 Lab 6<br/>Docker Compose"]
     L6 --> L7["🔍 Lab 7<br/>Monitoring"]
+    L7 --> L8["🔐 Lab 8<br/>Security"]
+    L8 --> L9["🤖 Lab 9<br/>Automation"]
 
     classDef done fill:#2ea44f,stroke:#1a7f37,color:#ffffff;
-    class L1,L2,L3,L4,L5,L6,L7 done;
+    class L1,L2,L3,L4,L5,L6,L7,L8,L9 done;
 ```
 
-**Overall progress:** `██████████ 100%` (7 of 7 labs completed)
+**Overall progress:** `██████████ 100%` (9 of 9 labs completed)
 
 <div align="right">
 
