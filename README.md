@@ -14,7 +14,7 @@
 
 <br>
 
-![Labs Completed](https://img.shields.io/badge/Labs_Completed-7%2F7-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Labs Completed](https://img.shields.io/badge/Labs_Completed-10%2F10-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![Last Commit](https://img.shields.io/github/last-commit/MikashitaDezu/CCM101-cerabanillo?style=for-the-badge&logo=git&logoColor=white&color=F05032)
 ![Repo Size](https://img.shields.io/github/repo-size/MikashitaDezu/CCM101-cerabanillo?style=for-the-badge&logo=github&logoColor=white&color=181717)
 
@@ -38,6 +38,8 @@ Each milestone highlights my continuous growth in:
 * 🐧 Linux System Administration & Bash Scripting
 * 🐳 Containerization & Infrastructure as Code (Docker, Docker Compose)
 * 🔍 Monitoring & Observability (Host Health, Container Logs, and Metrics)
+* 🔐 Host-Based Security Hardening (UFW, SSH Keys, Docker Firewall Rules)
+* 🤖 Automation & Disaster Recovery (Bash Scripts, Cron Scheduling, Database Backups)
 * 📝 Version Control & Technical Documentation
 
 <div align="right">
@@ -54,10 +56,12 @@ Each milestone highlights my continuous growth in:
 
 | Category | Technologies |
 | :--- | :--- |
-| 🖥️ **Operating Systems** | Ubuntu Linux, Debian |
+| 🖥️ **Operating Systems** | Ubuntu Linux, Ubuntu Server, Debian |
 | ☁️ **Cloud Platforms** | Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) |
-| 📦 **Cloud & Virtualization** | KillerCoda Playground, KVM |
-| 🐳 **Containers & Deployment** | Docker, Docker Compose, Nginx, Nextcloud, MariaDB, MinIO |
+| 📦 **Cloud & Virtualization** | Oracle VirtualBox, KillerCoda Playground, KVM |
+| 🐳 **Containers & Deployment** | Docker, Docker Compose, Nginx, Nextcloud, WordPress, MariaDB, MinIO |
+| 🔐 **Security** | UFW, iptables (Docker firewall rules), OpenSSH with ED25519 key authentication |
+| 🤖 **Automation** | Bash scripting, Cron, `chmod` file permissions, database backups with `mariadb-dump` |
 | 🔍 **Monitoring** | Linux CLI tools (`free`, `df`, `top`), `docker logs`, `docker stats` |
 | 🔀 **Version Control** | Git, GitHub |
 | 📝 **Documentation** | Markdown, CLI Workflows |
@@ -87,6 +91,7 @@ Each milestone highlights my continuous growth in:
 | **[Lab 7](Laboratory-07-Cloud-Operations-Engineer/)** | Cloud Operations Engineer (Host Baseline, Docker Logs, and Container Metrics Monitoring) | ✅ Completed |
 | **[Lab 8](Laboratory-08-Cloud-Security-Engineer/)** | Cloud Security Engineer (Securing Cloud Environments) | ✅ Completed |
 | **[Lab 9](Laboratory-09-Cloud-Automation-Engineer/)** | Cloud Automation Engineer (Bash Scripting, File Permissions, and Cron Scheduling) | ✅ Completed |
+| **[Lab 10](Laboratory-10-Enterprise-Cloud-Architect/)** | Enterprise Cloud Architect (CloudNova: WordPress and MariaDB on Ubuntu Server, Security Hardening, and Automated Backups) | ✅ Completed |
 
 ### 🔽 Lab Details
 
@@ -152,6 +157,13 @@ Each milestone highlights my continuous growth in:
 
 <br>
 
+**Mission:** Secure a client's Ubuntu server that was deployed with no network security configured.
+
+* 🔎 **Audit:** open ports checked with `ss -tulpn` before any change
+* 🧱 **Firewall:** UFW enabled with default deny for incoming traffic and default allow for outgoing traffic
+* 🚪 **Allowed services:** SSH (port 22) and the Nginx web application (port 8080)
+* 📄 **Documents:** `security-audit-report.md`, `firewall-configuration.md`, `reflection.md`
+
 [📁 Open the Lab 8 folder](Laboratory-08-Cloud-Security-Engineer/)
 
 </details>
@@ -169,6 +181,23 @@ Each milestone highlights my continuous growth in:
 * 📄 **Documents:** `automation-research.md`, `backup-script-guide.md`, `reflection.md`
 
 [📁 Open the Lab 9 folder](Laboratory-09-Cloud-Automation-Engineer/)
+
+</details>
+
+<details>
+<summary><b>🏛️ Lab 10: Enterprise Cloud Architect</b></summary>
+
+<br>
+
+**Mission:** Design, deploy, secure, automate, and document a complete private cloud environment with no step-by-step guide.
+
+* 🏗️ **Infrastructure:** Ubuntu Server virtual machine on Oracle VirtualBox with NAT and Host-only networking
+* 🐳 **Deployment:** WordPress and MariaDB as linked containers, defined in one `docker-compose.yml` with persistent volumes
+* 🔐 **Security:** UFW with default deny, key-only SSH, Docker firewall rules, and a protected `.env` file for credentials
+* 🤖 **Automation:** `automation-script.sh` creates a compressed, verified MariaDB backup, scheduled daily with Cron
+* 📄 **Documents:** `architecture-diagram.png`, `operational-manual.md`, `final-reflection.md`
+
+[📁 Open the Lab 10 folder](Laboratory-10-Enterprise-Cloud-Architect/)
 
 </details>
 
@@ -194,12 +223,13 @@ flowchart LR
     L6 --> L7["🔍 Lab 7<br/>Monitoring"]
     L7 --> L8["🔐 Lab 8<br/>Security"]
     L8 --> L9["🤖 Lab 9<br/>Automation"]
+    L9 --> L10["🏛️ Lab 10<br/>Enterprise Architect"]
 
     classDef done fill:#2ea44f,stroke:#1a7f37,color:#ffffff;
-    class L1,L2,L3,L4,L5,L6,L7,L8,L9 done;
+    class L1,L2,L3,L4,L5,L6,L7,L8,L9,L10 done;
 ```
 
-**Overall progress:** `██████████ 100%` (9 of 9 labs completed)
+**Overall progress:** `██████████ 100%` (10 of 10 labs completed)
 
 <div align="right">
 
@@ -225,6 +255,9 @@ flowchart LR
   <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" />
   <img src="https://img.shields.io/badge/Nextcloud-0082C9?style=for-the-badge&logo=nextcloud&logoColor=white" />
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
+  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
