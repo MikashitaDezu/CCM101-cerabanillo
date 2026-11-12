@@ -6,19 +6,36 @@ This manual explains how to deploy, secure, and maintain CloudNova. It is writte
 
 ---
 
-## Table of Contents
+## Quick Reference
 
-1. [Introduction](#1-introduction)
-2. [System Requirements](#2-system-requirements)
-3. [Server and Network Setup](#3-server-and-network-setup)
-4. [Deploying the Docker Application](#4-deploying-the-docker-application)
-5. [Data Storage](#5-data-storage)
-6. [Security Configuration](#6-security-configuration)
-7. [Automatic Database Backup](#7-automatic-database-backup)
-8. [Restoring a Database Backup](#8-restoring-a-database-backup)
-9. [Maintenance and Troubleshooting](#9-maintenance-and-troubleshooting)
-10. [Important Maintenance Reminders](#10-important-maintenance-reminders)
-11. [Conclusion](#11-conclusion)
+### System at a Glance
+
+| Item | Value |
+|---|---|
+| Application | WordPress with a MariaDB 11.4 database |
+| Server | Ubuntu Server 26.04.1 LTS on Oracle VirtualBox |
+| Website address | `http://192.168.56.103:8080` |
+| Project directory | `/opt/cloudnova/` |
+| Containers | `cloudnova-wordpress`, `cloudnova-database` |
+| Persistent volumes | `wordpress_data`, `mariadb_data` |
+| Firewall | UFW (default deny incoming) plus Docker firewall rules |
+| SSH access | ED25519 key only, Host-only network only |
+| Backup schedule | Daily at 2:00 AM UTC (10:00 AM Philippine Time) |
+| Backup location | `/opt/cloudnova/backups/` (7-day retention) |
+| Backup log | `/var/log/cloudnova-backup.log` |
+
+### Common Tasks
+
+| Task | Command | Section |
+|---|---|---|
+| Connect to the server | `ssh -i "$env:USERPROFILE\.ssh\cloudnova_ed25519" cloudnova@192.168.56.103` | 3.3 |
+| Start the application | `cd /opt/cloudnova && sudo docker compose up -d` | 4.5 |
+| Check container status | `sudo docker compose ps` | 4.5 |
+| View application logs | `sudo docker compose logs -f` | 4.8 |
+| Check the firewall | `sudo ufw status verbose` | 6.1 |
+| Run a manual backup | `sudo /usr/local/sbin/cloudnova-db-backup.sh` | 7.4 |
+| Check the backup log | `sudo tail -n 50 /var/log/cloudnova-backup.log` | 7.8 |
+| Restore a backup | See the restore procedure | 8 |
 
 ---
 
